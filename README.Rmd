@@ -1,0 +1,39 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ussie
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/edward-burn/ussie/workflows/R-CMD-check/badge.svg)](https://github.com/edward-burn/ussie/actions)
+<!-- badges: end -->
+
+The goal of ussie is to help prepare football data from European countries for analysis.
+
+## Installation
+
+You can install the development version of ussie from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("edward-burn/ussie")
+```
+
+## Example
+```{r example}
+library(ussie)
+uss_make_matches(engsoccerdata::italy, "Italy")
+ 
+```
+

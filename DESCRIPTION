@@ -15,4 +15,6 @@ Imports:
     dplyr,
     tibble
 Suggests: 
-    engsoccerdata
+    engsoccerdata,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
