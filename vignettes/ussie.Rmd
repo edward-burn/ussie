@@ -1,0 +1,25 @@
+---
+title: "ussie"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ussie}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ussie)
+library(dplyr)
+```
+
+```{r matches_italy}
+matches_italy <- uss_make_matches(engsoccerdata::italy, "Italy")
+glimpse(matches_italy)
+```
