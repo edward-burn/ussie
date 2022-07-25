@@ -9,6 +9,7 @@
 #' @export
 #'
 #' @examples
+#' uss_make_matches(engsoccerdata::england, country_name = "England")
 uss_make_matches <- function(data_engsoc, country_name) {
   result <-
     data_engsoc |>

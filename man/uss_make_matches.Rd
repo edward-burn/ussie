@@ -19,3 +19,6 @@ a tibble with columns \code{country}, \code{date}, \code{season}, \code{tier}, \
 \description{
 Create a standard dataframe for league data
 }
+\examples{
+uss_make_matches(engsoccerdata::england, country_name = "England")
+}
