@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/edward-burn/ussie/workflows/R-CMD-check/badge.svg)](https://github.com/edward-burn/ussie/actions)
+[![test-coverage](https://github.com/edward-burn/ussie/workflows/test-coverage/badge.svg)](https://github.com/edward-burn/ussie/actions)
 <!-- badges: end -->
 
 The goal of ussie is to help prepare football data from European
