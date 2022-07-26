@@ -18,8 +18,14 @@ knitr::opts_chunk$set(
 library(ussie)
 library(dplyr)
 ```
-
+.
 ```{r matches_italy}
 matches_italy <- uss_make_matches(engsoccerdata::italy, "Italy")
 glimpse(matches_italy)
 ```
+
+```{r matches_italy}
+ uss_get_matches(country="italy")
+```
+
+

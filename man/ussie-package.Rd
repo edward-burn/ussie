@@ -12,6 +12,7 @@ Data preparation for football data from European countries.
 Useful links:
 \itemize{
   \item \url{https://github.com/edward-burn/ussie}
+  \item \url{https://edward-burn.github.io/ussie/}
   \item Report bugs at \url{https://github.com/edward-burn/ussie/issues}
 }
 

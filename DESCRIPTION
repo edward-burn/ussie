@@ -2,23 +2,27 @@ Package: ussie
 Title: Analysing Footbal Data From Europe
 Version: 0.0.0.9000
 Authors@R: 
-    person("Edward", "Burn", , "edward.burn@ndorms.ox.ac.uk", 
-    role = c("aut", "cre"))
+    person("Edward", "Burn", , "edward.burn@ndorms.ox.ac.uk", role = c("aut", "cre"))
 Description: Data preparation for football data from European countries.
 License: Apache License (>= 2)
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
 URL: https://github.com/edward-burn/ussie,
     https://edward-burn.github.io/ussie/
 BugReports: https://github.com/edward-burn/ussie/issues
 Imports: 
+    cli,
     dplyr,
+    engsoccerdata,
+    rlang,
     tibble
 Suggests: 
-    engsoccerdata,
+    conflicted,
     knitr,
     rmarkdown,
+    roxygen2,
     testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
 Config/testthat/edition: 3
-VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
